@@ -8,8 +8,14 @@ firmware:https://raw.githubusercontent.com/xuanbka1/firmwareUpdate/main/FASE_V1A
 +version V1A0000 + xem commit version của bản này
 
 topic pub: 
+
+
 payment/server/deviceID/debug
+
+
 topic sub:
+
+
 payment/device/deviceID/debug
 
 
