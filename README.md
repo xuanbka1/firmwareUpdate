@@ -21,3 +21,19 @@ payment/device/deviceID/debug
 
 Phiên bản đang sử dụng: FASE, LTE/4G fallback 2G. support GNSS
 
+-- topic publish
+payment/device/%s/ping
+payment/device/%s/cash
+payment/device/%s/response
+payment/device/%s/qr
+payment/device/%s/config
+payment/device/%s/debug
+
+-- topic subcribes
+payment/server/%s/ping
+payment/server/%s/qr
+payment/server/%s/control
+payment/server/%s/update
+payment/server/%s/config
+payment/server/%s/debug
+
